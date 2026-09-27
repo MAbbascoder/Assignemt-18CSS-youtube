@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>YouTube UI Layout</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Top Navbar -->
+  <header class="navbar">
+    <div class="nav-left">
+      <button class="menu-btn">☰</button>
+      <div class="logo">
+        <span class="play-icon">▶</span>
+        <span class="logo-text">YouTube</span>
+      </div>
+    </div>
+    
+    <div class="nav-center">
+      <input type="text" placeholder="Search..." class="search-bar">
+    </div>
+
+    <div class="nav-right">
+      <button class="nav-icon">+</button>
+      <button class="nav-icon">🔔</button>
+      <img src="https://picsum.photos/id/64/100/100" alt="Profile" class="profile-pic">
+    </div>
+  </header>
+
+  <div class="container">
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <ul class="menu-list">
+        <li class="active">🏠 Home</li>
+        <li>🔥 Trending</li>
+        <li>📁 Subscriptions</li>
+        <li>📚 Library</li>
+        <li>🕒 History</li>
+      </ul>
+      <hr>
+      <div class="section-title">SUBSCRIPTIONS</div>
+      <ul class="menu-list">
+        <li><img src="https://picsum.photos/id/1012/30/30" class="sub-icon"> Channel 1</li>
+        <li><img src="https://picsum.photos/id/1025/30/30" class="sub-icon"> Channel 2</li>
+        <li><img src="https://picsum.photos/id/1074/30/30" class="sub-icon"> Channel 3</li>
+      </ul>
+    </aside>
+
+    <!-- Main Content Area -->
+    <main class="main-content">
+      
+      <!-- Category Tags/Filters -->
+      <div class="tags-bar">
+        <button class="tag active">All</button>
+        <button class="tag">Stronghold Kingdoms</button>
+        <button class="tag">Beats</button>
+        <button class="tag">Rapping</button>
+        <button class="tag">Inter</button>
+        <button class="tag">JavaScript</button>
+        <button class="tag">Live</button>
+        <button class="tag">Music</button>
+      </div>
+
+      <!-- Banner / Featured Section -->
+      <div class="banner">
+        <div class="banner-card banner-large">
+          <img src="https://picsum.photos/id/1070/800/300" alt="Featured">
+          <div class="banner-overlay">Featured Content</div>
+        </div>
+        <div class="banner-card banner-small">
+          <img src="https://picsum.photos/id/1060/400/300" alt="Promo">
+          <div class="banner-overlay">Promo Card</div>
+        </div>
+      </div>
+
+      <!-- Video Grid Section -->
+      <div class="video-grid">
+        
+        <!-- Video Card 1 -->
+        <div class="video-card">
+          <img src="https://picsum.photos/id/1018/300/180" class="thumbnail" alt="Video 1">
+          <div class="video-details">
+            <img src="https://picsum.photos/id/1005/40/40" class="channel-avatar" alt="Avatar">
+            <div class="video-info">
+              <h4 class="video-title">Super Intelligence - Memory Music</h4>
+              <p class="channel-name">Channel Name</p>
+              <p class="video-meta">200K views • 1 day ago</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Video Card 2 -->
+        <div class="video-card">
+          <img src="https://picsum.photos/id/1039/300/180" class="thumbnail" alt="Video 2">
+          <div class="video-details">
+            <img src="https://picsum.photos/id/1027/40/40" class="channel-avatar" alt="Avatar">
+            <div class="video-info">
+              <h4 class="video-title">A Travis Scott - Cactus Jack Experience</h4>
+              <p class="channel-name">Travis Scott</p>
+              <p class="video-meta">2M views • 2 months ago</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Video Card 3 -->
+        <div class="video-card">
+          <img src="https://picsum.photos/id/1043/300/180" class="thumbnail" alt="Video 3">
+          <div class="video-details">
+            <img src="https://picsum.photos/id/1062/40/40" class="channel-avatar" alt="Avatar">
+            <div class="video-info">
+              <h4 class="video-title">Lofi Hip Hop Radio - Beats to relax</h4>
+              <p class="channel-name">Lofi Girl</p>
+              <p class="video-meta">4.5K watching LIVE</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Video Card 4 -->
+        <div class="video-card">
+          <img src="https://picsum.photos/id/1059/300/180" class="thumbnail" alt="Video 4">
+          <div class="video-details">
+            <img src="https://picsum.photos/id/1069/40/40" class="channel-avatar" alt="Avatar">
+            <div class="video-info">
+              <h4 class="video-title">A.L.A - Power (Official Video)</h4>
+              <p class="channel-name">A.L.A Official</p>
+              <p class="video-meta">2.8M views • 3 months ago</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </main>
+  </div>
+
+</body>
+</html>
